@@ -5,7 +5,20 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/openlayers/ol3.git"
+    "url": "git://github.com/openlayers/eslint-plugin-openlayers-internal.git"
   },
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": "openlayers",
+    "env": {
+      "es6": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-openlayers": "^6.0.0"
+  }
 }
