@@ -1,11 +1,11 @@
 {
-  "name": "eslint-plugin-openlayers-internal",
+  "name": "@openlayers/eslint-plugin",
   "version": "3.1.0",
   "description": "Custom ESLint rules for the OpenLayers project",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/openlayers/eslint-plugin-openlayers-internal.git"
+    "url": "git://github.com/openlayers/eslint-plugin.git"
   },
   "license": "BSD-2-Clause",
   "scripts": {
