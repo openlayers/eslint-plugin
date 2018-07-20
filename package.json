@@ -12,13 +12,16 @@
     "test": "eslint ."
   },
   "eslintConfig": {
-    "extends": "openlayers",
-    "env": {
-      "es6": true
-    }
+    "extends": "openlayers"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
-    "eslint-config-openlayers": "^6.0.0"
+    "eslint": "^5.1.0",
+    "eslint-config-openlayers": "^11.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.1.0"
+  },
+  "dependencies": {
+    "@openlayers/doctrine": "^2.1.0"
   }
 }
