@@ -2,6 +2,6 @@
 
 module.exports = {
   rules: {
-    'valid-tsdoc': require('./valid-tsdoc').rule
+    'valid-tsdoc': require('./valid-tsdoc')
   }
 };
