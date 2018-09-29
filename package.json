@@ -1,6 +1,6 @@
 {
   "name": "@openlayers/eslint-plugin",
-  "version": "4.0.0-beta.1",
+  "version": "4.0.0-beta.2",
   "description": "Custom ESLint rules for the OpenLayers project",
   "main": "index.js",
   "repository": {
@@ -22,6 +22,6 @@
     "eslint": ">=5.1.0"
   },
   "dependencies": {
-    "@openlayers/doctrine": "^2.1.0"
+    "@openlayers/doctrine": "^2.2.0"
   }
 }
