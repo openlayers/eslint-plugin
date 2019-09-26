@@ -2,6 +2,7 @@
 
 module.exports = {
   rules: {
-    'valid-tsdoc': require('./valid-tsdoc')
+    'valid-tsdoc': require('./valid-tsdoc'),
+    'no-exclusive-tests': require('./no-exclusive-tests')
   }
 };
