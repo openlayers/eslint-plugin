@@ -1,6 +1,6 @@
 {
   "name": "@openlayers/eslint-plugin",
-  "version": "4.0.0-beta.2",
+  "version": "4.0.0",
   "description": "Custom ESLint rules for the OpenLayers project",
   "main": "index.js",
   "repository": {
