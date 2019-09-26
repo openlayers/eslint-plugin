@@ -15,8 +15,8 @@
     "extends": "openlayers"
   },
   "devDependencies": {
-    "eslint": "^5.1.0",
-    "eslint-config-openlayers": "^11.0.0"
+    "eslint": "^6.4.0",
+    "eslint-config-openlayers": "^12.0.0"
   },
   "peerDependencies": {
     "eslint": ">=5.1.0"

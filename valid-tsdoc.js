@@ -80,11 +80,11 @@ module.exports = {
         preferType = options.preferType || {},
         checkPreferType = Object.keys(preferType).length !== 0;
 
-        //--------------------------------------------------------------------------
-        // Helpers
-        //--------------------------------------------------------------------------
+    //--------------------------------------------------------------------------
+    // Helpers
+    //--------------------------------------------------------------------------
 
-        // Using a stack to store if a function returns or not (handling nested functions)
+    // Using a stack to store if a function returns or not (handling nested functions)
     const fns = [];
 
     /**
